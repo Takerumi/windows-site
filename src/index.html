@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/favicon.ico">
-    <title>Окна</title>
+    <title>Ирвас окна</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
@@ -25,9 +25,9 @@
           <div class="col-md-5 col-sm-3 col-xs-12">
             <div class="logo">
               <div class="logo_img">
-                <img src="assets/img/header/logo.jpg" alt="#">
+                <img src="assets/img/header/logo.png" alt="#">
               </div>
-              <p>Остекление балконов и лоджий</p>
+              <p>Остекление балконов и лоджий в Москве и Московской области</p>
             </div>
           </div>
 
@@ -53,7 +53,7 @@
           <div class="col-md-3 col-sm-3 col-xs-6">
             <div class="contact_us">
               <div class="contact_us_wrap">
-                <a href="#"><img src="assets/img/header/phone.png" alt="#">8 800 000 00 00</a>
+                <a href="#"><img src="assets/img/header/phone.png" alt="#">+7 (495) 646-61-71</a>
                 <a class="phone_link" href="#">Заказать обратный звонок</a>
               </div>
             </div>
@@ -750,13 +750,13 @@
           <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 wow fadeInRight">
             <div class="contacts_info">
               <h3>Юридический адрес:</h3>
-              <p>ООО «ОКНА», 127411, г.Москва, Дмитровское шоссе, д.125, корпус 1</p>
+              <p>ООО «ИРВАС», 127411, г.Москва, Дмитровское шоссе, д.125, корпус 1</p>
               <h3>Фактический адрес:</h3>
-              <p>ООО «ОКНА», 141031, МО, Мытищинский р-он, п.Вешки,Выставочная,д.53</p>
+              <p>ООО «ИРВАС», 141031, МО, Мытищинский р-он, п.Вешки,Выставочная,д.53</p>
               <h3>Телефон:</h3>
-              <p>8 800 000 00 00<span>(многоканальный)</span></p>
+              <p>+7 (495) 646-61- 71 <span>(многоканальный)</span></p>
               <h3>E-mail:</h3>
-              <a href="#">info@okna.ru</a>
+              <a href="#">info@irvasokna.ru</a>
               <h3>Режим работы:</h3>
               <p>9:00 - 18:00 без выходных</p>
             </div>
@@ -781,13 +781,13 @@
         <div class="row">
           <div class="col-sm-4 col-sm-push-8 col-xs-12">
             <div class="contacts">
-              <a class="phone" href="#">8 800 00 00</a>
-              <a class="email" href="#">info@okna.ru</a>
+              <a class="phone" href="#">+7 (495) 646-61-71</a>
+              <a class="email" href="#">info@irvasokna.ru</a>
             </div>
           </div>
           <div class="col-sm-4 col-xs-12">
             <div class="logo">
-              <img src="assets/img/header/logo.jpg" alt="#">
+              <img src="assets/img/header/logo.png" alt="#">
             </div>
           </div>
           <div class="col-sm-4 col-sm-pull-8 col-xs-12">
@@ -800,7 +800,7 @@
 
     <!-- Modals -->
     <!-- Request a call -->
-    <div class="popup">
+    <div class="popup" data-modal>
         <div class="popup_dialog">
             <div class="popup_content text-center">
                 <button type="button" class="popup_close"><strong>&times;</strong></button>
@@ -818,7 +818,7 @@
     </div>
 
     <!-- Request an engineer -->
-    <div class="popup_engineer">
+    <div class="popup_engineer" data-modal>
         <div class="popup_dialog">
             <div class="popup_content text-center">
                 <button type="button" class="popup_close"><strong>&times;</strong></button>
@@ -836,7 +836,7 @@
     </div>
 
     <!-- Calculator -->
-   <div class="popup_calc">
+   <div class="popup_calc" data-modal>
         <div class="popup_dialog">
             <div class="popup_calc_content text-center">
                 <button type="button" class="popup_calc_close"><strong>&times;</strong></button>
@@ -868,7 +868,7 @@
         </div>
     </div> 
 
-   <div class="popup_calc_profile">
+   <div class="popup_calc_profile" data-modal>
         <div class="popup_dialog">
             <div class="popup_calc_profile_content text-center">
                 <button type="button" class="popup_calc_profile_close"><strong>&times;</strong></button>
@@ -899,12 +899,12 @@
         </div>
     </div> 
 
-    <div class="popup_calc_end">
+    <div class="popup_calc_end" data-modal>
         <div class="popup_dialog">
             <div class="popup_content text-center">
                 <button type="button" class="popup_calc_end_close"><strong>&times;</strong></button>
                 <div class="popup_form">
-                    <form class="form" action="#">
+                    <form class="form" action="#" data-calc="end">
                       <h2>Спасибо за обращение! <br>Оставьте свои данные</h2>
                         <input class="form-control form_input" name="user_name" required type="text" placeholder="Введите ваше имя">
                         <input class="form-control form_input" name="user_phone" required type="text" placeholder="Введите телефон">
