@@ -943,6 +943,12 @@ textarea:focus {
     cursor: pointer;
   }
 
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+} 
+
 .popup_calc_close {
   position: absolute;
   top: -2.2rem;
